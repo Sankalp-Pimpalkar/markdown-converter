@@ -51,7 +51,7 @@ function App() {
   }
 
   return (
-    <div className="w-full min-h-screen bg-gray-900 flex flex-wrap flex-col-reverse md:flex-row md:flex-nowrap gap-6 p-10">
+    <div className="w-full min-h-screen bg-gray-900 flex flex-wrap flex-col-reverse md:flex-row md:flex-nowrap gap-6 p-4 sm:p-10">
       <Editor text={text} onChange={handleChange} />
       <Markdown text={markdownToHtml(text)} />
     </div>
